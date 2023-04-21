@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About
+permalink: /
 ---
 
 # A Hobbyist's Curse
