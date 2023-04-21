@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-permalink: /about
+permalink: /about.html
 ---
 
 # A Hobbyist's Curse
