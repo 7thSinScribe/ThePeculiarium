@@ -1,8 +1,9 @@
 ---
 ---
 
-$asset_url: '{{ '/assets' | relative_url }}';
+@charset "utf-8";
 
+$asset_url: '{{ '/assets' | relative_url }}';
 
 @import 
   "reset",
