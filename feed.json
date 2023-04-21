@@ -8,7 +8,7 @@ layout: null
     "feed_url": "{{ "/feed.json" | absolute_url }}",
     "description": {{ site.description | jsonify }},
     "icon": "{{ site.icon | absolute_url }}",
-    "favicon": "{{ "/favicon.ico" | absolute_url }}",
+    "favicon": "{{ '/favicon.ico' | relative_url }}",
     "expired": false,
     "items": [
     {% for post in site.posts limit: 15 %}
@@ -20,7 +20,7 @@ layout: null
             {% if post.title != "" %}"title": {{ post.title | jsonify }},{% endif %}
             "content_text": {{ content_text | jsonify }},
             "content_html": {{ content_html | jsonify }},
-            "url": "{{ post.url | absolute_url}}",
+            "url": "{{ post.url | absolute_url }}",
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "date_modified": "{{ post.date | date_to_xmlschema }}",
             "author": {
