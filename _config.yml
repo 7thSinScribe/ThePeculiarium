@@ -17,11 +17,11 @@ title: The Peculiarium
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Credo est relitas est credo
-baseurl: "/hitchens" # the subpath of your site, e.g. /blog
-url: "https://patdryburgh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ThePeculiarium" # the subpath of your site, e.g. /blog
+url: "https://7thsinscribe.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/noumenon-eye.png
-twitter_username: patdryburgh
-github_username:  patdryburgh
+github_username:  7ThSinScribe
+discord_username: Skumbag#8885
 
 # Build settings
 markdown: kramdown
@@ -40,6 +40,11 @@ markdown: kramdown
 
 plugins:
   - jekyll-paginate
+  - jekyll-sass-converter
 
 paginate: 3
 paginate_path: "/page/:num/"
+
+sass:
+  sass_dir: _sass
+  style: compressed
