@@ -24,6 +24,9 @@ layout: default
 
 <main class="home" id="main" role="main" aria-label="Content">
 
+  <p class="main-page-body-text">
+    Welcome, wanderer... You have stumbled upon troublesome pages... 
+  </p>
   <h1 class="content-title divided">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
@@ -31,6 +34,8 @@ layout: default
       Contents
     {% endif %}
   </h1>
+  
+  
 
   {% if site.paginate and site.paginate_path %}
     
