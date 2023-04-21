@@ -2,7 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="{{ '/assets/images/noumenon-eye.jpg' | relative_url }}" sizes="240x240">
+
 
     
     <meta charset="utf-8">
@@ -23,6 +26,8 @@
 
   </head>
   <body>
+    <img src="{{ '/assets/images/noumenon-eye.png' | relative_url }}" alt="Noumenon Eye" class="background-image">
+
 
     {% if page.layout == 'home' %}
       <a href="#main" class="skip-navigation">
