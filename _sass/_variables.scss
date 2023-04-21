@@ -1,8 +1,10 @@
-$brand-color:         #fede00;
+$brand-color:         #0b0b0b;
 $highlight:           lighten($brand-color, 35%);
-$text-color:          #0b0404;
-$muted-text-color:    #64644B;
-$font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+$text-color:          #dfdfdf;
+$muted-text-color:    #d4d4d4;
+$header-font-family:         "Cinzel Decorative", serif;
+$body-font-family:         "Garamond", serif;
+
 
 $on-bigphone:         375px;
 $on-tablet:           768px;
