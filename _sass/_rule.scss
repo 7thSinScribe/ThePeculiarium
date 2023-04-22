@@ -1,11 +1,17 @@
+.rule-title {
+  margin-left: 2rem;
+  margin-bottom: 0.5rem; /* Added to reduce the margin below the title */
+}
+
 .rule-content {
   width: 100%;
   max-width: 1700px;
-  margin: 0 auto;
-  padding: 2em 1.5em;
+  margin: 0.5rem 1.5rem 1.5rem; /* Reduced margin-top */
+  margin-top: 0.1rem;
+  padding: 1em 0.5em;
   line-height: 1.5;
-  display: flex; // Added to create a flexible container
-  flex-wrap: wrap; // Added to allow columns to wrap
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .rule-content pre {
@@ -23,7 +29,7 @@
 }
 
 .rule-content h2 {
-  margin-top: 1em;
+  margin-top: 0.5em; /* Reduced margin-top */
 }
 
 .rule-content ul {
@@ -52,12 +58,11 @@
   list-style: none;
 }
 
-// Added styles for the two-column layout
 .left-column,
 .right-column {
-  width: 50%; // Set column width to 50% to create two columns
-  padding: 0 1em; // Add padding for spacing between columns
-  box-sizing: border-box; // Ensure padding is included in the width calculation
+  width: calc(50% - 1em); /* Updated width to account for gap between columns */
+  padding: 0 1em;
+  box-sizing: border-box;
 }
 
   
