@@ -1,2 +1,63 @@
+.rule-content {
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+  line-height: 1.5;
+  display: flex; // Added to create a flexible container
+  flex-wrap: wrap; // Added to allow columns to wrap
+}
+
+.rule-content pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
+
+.rule-content pre::before {
+  content: "\00a0\00a0\00a0\00a0";
+  display: block;
+  float: left;
+  margin-left: -1.5em;
+  width: 1.5em;
+  text-align: right;
+}
+
+.rule-content h2 {
+  margin-top: 1em;
+}
+
+.rule-content ul {
+  margin-bottom: 1em;
+}
+
+@media (max-width: 767px) {
+  .rule-content {
+    font-size: 14px;
+  }
+}
+
+.outcome-table {
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.outcome-table th,
+.outcome-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.outcomes-list {
+  list-style: none;
+}
+
+// Added styles for the two-column layout
+.left-column,
+.right-column {
+  width: 50%; // Set column width to 50% to create two columns
+  padding: 0 1em; // Add padding for spacing between columns
+  box-sizing: border-box; // Ensure padding is included in the width calculation
+}
 
   

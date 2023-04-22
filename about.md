@@ -3,6 +3,8 @@ layout: post
 title: About
 ---
 
+
+
 # A Hobbyist's Curse
 
 It's taken copious amounts of coffee and the occasional psychoactive substance to keep me on track, but here we are! My mind is still intact... I think.

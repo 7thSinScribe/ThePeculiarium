@@ -1,13 +1,14 @@
-<li>
+{% unless rule.toc_exclude %}
+  <li>
     <a href="{{ rule.url | relative_url }}" class="rule-link">
       <div class="rule-link__heading">
         {% unless rule.title == "" %}
-            <h1 class="rule-link__title">      
-              {{ rule.title }}
-            </h1>
+          <h1 class="rule-link__title">      
+            {{ rule.title }}
+          </h1>
         {% endunless %}
       </div>
     </a>
   </li>
-  
+{% endunless %}
   
