@@ -8,4 +8,4 @@ Welcome to The Black Book, the Peculiarium Paradoxicum or simply The Book. Here 
 
 ## Who are you? 
 
-My name is not important; I am a vagrant, a vagabond, a voviparious 
+My name is not important; I am a vagrant, a vagabond; a wanderer of Terras unknown.
