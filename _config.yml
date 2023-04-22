@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Credo Ergo Sum
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://thebook.black" # the base hostname & protocol for your site, e.g. http://example.com
-icon: /assets/images/noumenon-eye.png
+icon: /assets/images/noumenon-eyecon.jpg
 github_username:  7ThSinScribe
 discord_username: Skumbag#8885
 
