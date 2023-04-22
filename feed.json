@@ -4,11 +4,11 @@ layout: null
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "{{ site.title | xml_escape }}",
-    "home_page_url": "{{ site.baseurl | absolute_url }}",
-    "feed_url": "{{ "/feed.json" | absolute_url }}",
+    "home_page_url": "{{ site.baseurl | relative_url }}",
+    "feed_url": "{{ "/feed.json" | relative_url }}",
     "description": {{ site.description | jsonify }},
-    "icon": "{{ site.icon | absolute_url }}",
-    "favicon": "{{ "/favicon.ico" | absolute_url }}",
+    "icon": "{{ site.icon | relative_url }}",
+    "favicon": "{{ "/favicon.ico" | relative_url }}",
     "expired": false,
     "items": [
     {% for post in site.posts limit: 15 %}
@@ -16,11 +16,11 @@ layout: null
         {% capture content_text %}{{ post.content | strip_html }}{% endcapture %}
         {% capture content_html %}{{ post.content | markdownify }}{% endcapture %}
         {
-            "id": "{{ post.url | absolute_url | sha1 }}",
+            "id": "{{ post.url | relative_url | sha1 }}",
             {% if post.title != "" %}"title": {{ post.title | jsonify }},{% endif %}
             "content_text": {{ content_text | jsonify }},
             "content_html": {{ content_html | jsonify }},
-            "url": "{{ post.url | absolute_url}}",
+            "url": "{{ post.url | relative_url}}",
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "date_modified": "{{ post.date | date_to_xmlschema }}",
             "author": {
