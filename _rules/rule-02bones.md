@@ -23,6 +23,7 @@ This Bone represents an actor's physical and mental resilience. It encompasses s
 <b>ROLLING & READING</b>
 When the outcome of your action(s) are not apparent; you will most often roll & read one of your bones, comparing it to a Target; a number set by the Overseer to determine the outcome of your action(s) the Target is most commonly a number between 5 & 10, with exceptionally difficult challenges above 1
 
+
 <b>TABLE I/I - OUTCOMES</b>
 <table class="outcome-table">
   <thead>
