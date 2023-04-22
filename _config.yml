@@ -16,12 +16,17 @@
 title: The Peculiarium
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Credo est relitas est credo
-baseurl: "/ThePeculiarium" # the subpath of your site, e.g. /blog
-url: "https://7thsinscribe.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+  Credo Ergo Sum
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "thebook.black" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/noumenon-eye.png
 github_username:  7ThSinScribe
 discord_username: Skumbag#8885
+
+collections:
+  rules:
+    output: true
+
 
 # Build settings
 markdown: kramdown
@@ -37,6 +42,7 @@ markdown: kramdown
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
 plugins:
   - jekyll-paginate
