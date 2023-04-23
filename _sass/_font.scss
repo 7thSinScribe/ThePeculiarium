@@ -14,3 +14,34 @@
 }
 
 
+@keyframes ripple {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes colourWave {
+  0%, 100% {
+    color: white;
+  }
+  50% {
+    color: gray;
+  }
+}
+
+.ripple-text span {
+  display: inline-block;
+  animation-name: ripple, colourWave;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+.ripple-text span:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+

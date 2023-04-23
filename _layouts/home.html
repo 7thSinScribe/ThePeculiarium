@@ -10,7 +10,7 @@ layout: default
   <header class="site-masthead">
     {% include menu.html %}
     {% if site.title %}
-      <h1>
+      <h1 class="site-title ripple-text">
         {{ site.title }}
       </h1>
     {% endif %}
@@ -22,6 +22,8 @@ layout: default
   </header>
 {% endif %}
 
+<script src="{{ site.baseurl }}/assets/js/ripple-effect.js"></script>
+
 <main class="home" id="main" role="main" aria-label="Content">
   <h1 class="content-title divided">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
@@ -30,8 +32,6 @@ layout: default
       The Codex
     {% endif %}
   </h1>
-  
-  
 
   {% if site.paginate and site.paginate_path %}
     
