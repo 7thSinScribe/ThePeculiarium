@@ -2,7 +2,7 @@
 layout: post
 title: "Credo, Ergo Sum"
 author: "Unknown Translator" 
-categories: Poem
+categories: Poems
 ---
 Through the Betweens we wander, seeking the unknown,
 Our powers fueled by faith, in places few have roamed.
