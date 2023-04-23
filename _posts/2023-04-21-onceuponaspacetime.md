@@ -10,7 +10,7 @@ In a time long forgotten, in the mystical land of Errth, there was a small villa
 
 In this village, there was a wise and kind-hearted storyteller named Maelis, who was loved by all for her enchanting tales that taught lessons of wisdom and virtue. One evening, as darkness enveloped the village, Maelis gathered the children around the flickering fire, casting eerie shadows on their faces, and began to weave a tale that would send shivers down their spines.
 
-"Once upon a time," she began, her voice barely a whisper, "in a place that exists beyond the borders of our world, where the lines between realities blur and bend, there lived the twins. These beings were Nature and Space-time, and they were boundless and eternal.
+"Once upon a space-time," she began, her voice barely a whisper, "in a place that exists beyond the borders of our world, where the lines between realities blur and bend, there lived the twins. These beings were Nature and Space-time, and they were boundless and eternal.
 
 The elder sibling, Noum, was space-time. She was wise and just, always seeking balance and harmony among the celestial realms. Her younger sibling, Enon, born only after Noum had become space-time governed the realm of Nature, nurturing the growth of life in all its forms, guiding the evolution of countless worlds.
 
@@ -27,3 +27,8 @@ Deep within the shadows of this new reality, a hidden force lurked, born from th
 But the gods of Errth, the Spirits of the Otherwheres, and the creatures of Wonderland were not without hope. For in the tales of Maelis and other storytellers like her, the lessons of balance and harmony were passed down, reminding all who listened of the eternal dance between order and chaos that Noum and Enon had once embodied."
 
 And so it was, that in the whispers of the wind, the rustling of the leaves, and the gentle flow of time, the legacy of the twins lived on in Maelis' tale, a haunting reminder of the delicate balance that governs our existence.
+
+
+#### Translator's footnotes
+
+Interestingly, the ancient Albharric language has only a single word for space, which always included the word time; this word is 
