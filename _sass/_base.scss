@@ -180,8 +180,46 @@ figcaption {
   }
 }
 
+.site-title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .site-title {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 992px) {
+  .site-title {
+    font-size: 1.75em;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-title {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 576px) {
+  .site-title {
+    font-size: 1.25em;
+  }
+}
+
+
 .site-credits {
   display: none;
+}
+
+.site-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  text-align: center;
 }
 
 .puca-press-logo {

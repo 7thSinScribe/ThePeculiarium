@@ -39,6 +39,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   opacity: 1;
+  transform-origin: bottom;
 }
 
 .ripple-text span:nth-child(odd) {
