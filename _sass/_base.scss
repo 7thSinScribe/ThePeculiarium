@@ -10,6 +10,10 @@
   object-fit: cover;
 }
 
+body.no-background {
+  background-image: none;
+}
+
 body {
   background: $brand-color;
   color: $text-color;
@@ -177,4 +181,9 @@ figcaption {
 
 .site-credits {
   display: none;
+}
+
+.puca-press-logo {
+  width: 1500px; // Adjust this value to change the logo size
+  height: auto;
 }
