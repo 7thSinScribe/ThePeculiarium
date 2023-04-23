@@ -180,11 +180,6 @@ figcaption {
   }
 }
 
-.site-title {
-  font-size: 2.5em;
-  text-align: center;
-}
-
 @media (max-width: 1200px) {
   .site-title {
     font-size: 2em;
@@ -220,6 +215,8 @@ figcaption {
   text-overflow: ellipsis;
   max-width: 100%;
   text-align: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .puca-press-logo {
