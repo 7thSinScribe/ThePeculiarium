@@ -31,4 +31,5 @@ And so it was, that in the whispers of the wind, the rustling of the leaves, and
 
 #### Translator's footnotes
 
-Interestingly, the ancient Albharric language has only a single word for space, which always included the word time; this word is 
+Interestingly, the ancient Albharric language has only a single word for space, which always included the word time; this word is  Veltkal, IPA */vɛltkæl/*
+

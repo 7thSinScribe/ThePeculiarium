@@ -180,43 +180,9 @@ figcaption {
   }
 }
 
-@media (max-width: 1200px) {
-  .site-title {
-    font-size: 2em;
-  }
-}
-
-@media (max-width: 992px) {
-  .site-title {
-    font-size: 1.75em;
-  }
-}
-
-@media (max-width: 768px) {
-  .site-title {
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: 576px) {
-  .site-title {
-    font-size: 1.25em;
-  }
-}
-
 
 .site-credits {
   display: none;
-}
-
-.site-title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-  text-align: center;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
 }
 
 .puca-press-logo {
@@ -228,4 +194,14 @@ figcaption {
 .poem-section{
   font-family: Beau Rivage;
   font-size: 2em;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
 }

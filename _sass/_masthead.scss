@@ -1,25 +1,59 @@
+// Site masthead container
 .site-masthead {
   box-sizing: border-box;
   position: relative;
   text-align: center;
 }
 
+// Site title (h1) styles
 .site-masthead h1 {
-  font-size: 3em;
+  font-size: 7.5vw;
   margin-bottom: 0;
   margin-top: 1em;
   padding: 0 2rem;
+  
+  // Change font size for larger screens (tablets and up)
   @media (min-width: $on-tablet) {
     font-size: 6em;
   }
 }
 
+// Site description (h2) styles
 .site-masthead h2 {
   color: $muted-text-color;
-  font-size: 1.25em;
+  font-size: 6vw;
   margin: 0;
   padding: 0 2rem;
+  
+  // Change font size for larger screens (tablets and up)
   @media (min-width: $on-tablet) {
     font-size: 3em;
   }
 }
+
+
+// Media queries to adjust the font size at different breakpoints
+@media (max-width: 1200px) {
+  .site-masthead h1 {
+    font-size: 7.5vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .site-masthead h1 {
+    font-size: 7.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-masthead h1 {
+    font-size: 7.5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .site-masthead h1 {
+    font-size: 7.5vw;
+  }
+}
+

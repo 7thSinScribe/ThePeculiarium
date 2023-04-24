@@ -35,7 +35,7 @@
 
 
 .ripple-text span {
-  display: inline-block;
+  display: inline-flex;
   animation-name: ripple, colourWave;
   animation-duration: 3.5s;
   animation-iteration-count: infinite;
