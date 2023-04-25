@@ -22,9 +22,9 @@ body {
   }
   
   @mixin double-border {
-    border: 2px solid transparent;
-    outline: 3px solid var(--highlight);
-    box-shadow: inset 0 0 0 1px var(--highlight);
+    border: 2px solid transparent 25%;
+    outline: 3px solid white;
+    box-shadow: inset 0 0 0 1px white
   }
   
   
@@ -45,6 +45,7 @@ body {
   }
   
   h1 {
+    font-size: 6vw;
     text-align: center;
     @media (min-width: 700px) {
     }
@@ -186,10 +187,10 @@ body {
   }
   
   img {
-    width: 25%;
+    width: 20%;
     filter: grayscale(95%);
     margin-bottom: 0.2rem;
-    border: 1px solid var(--highlight);
+    border: 1px solid var(--muted-text-color);
     transition: 0.3s ease;
   }
   
@@ -201,7 +202,7 @@ body {
   aside {
     text-align: center;
     padding: 3px 0;
-    border: solid var(--highlight);
+    border: solid white;
     border-width: 2px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -212,7 +213,7 @@ body {
     > div {
       display: flex;
       align-items: center;
-      border: solid var(--highlight);
+      border: solid white;
       border-width: 1px 0;
       > div {
         flex: 1;
@@ -376,7 +377,7 @@ body {
     &:hover {
       h5 {
         transition: 0.3s ease;
-        background: var(--highlight);
+        background: var(--muted-text-color);
         color: #fff;
       }
     }
@@ -395,7 +396,7 @@ body {
     }
     &:not(.cssgrid-collection):hover {
       h4 {
-        background: var(--highlight);
+        background: var(--muted-text-color);
         color: #fff;
       }
     }
@@ -554,17 +555,8 @@ body {
   align-items: center;
 }
 
-.header-image {
-  width: 100px; /* Set the width to your desired value */
-  height: auto; /* Preserve the aspect ratio of the image */
-  margin-right: 20px; /* Add some spacing between the image and title */
-}
 
 .header-title {
   font-size: 2rem; /* Set the font size to your desired value */
   margin: 0; /* Remove any margin added by the browser */
-}
-.header_image {
-  size: 1.5vw;
-  height: auto;
 }
