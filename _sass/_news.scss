@@ -1,6 +1,6 @@
 // start of newspaper style css layout
 .news-content {
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -548,7 +548,7 @@ body {
       background: transparent;
     }
   }
-}
+
 
 .header-container {
   display: flex;
@@ -559,4 +559,5 @@ body {
 .header-title {
   font-size: 2rem; /* Set the font size to your desired value */
   margin: 0; /* Remove any margin added by the browser */
+}
 }
