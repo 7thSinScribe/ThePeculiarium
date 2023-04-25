@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% if site.data.menu %}
+  {% include menu.html %}
+{% else %}
+  {% include back-link.html %}
+{% endif %}
+
+<div class="main__wrapper">
+  <main class="news-content">
+    <div class="news">
+        <div class="header-container">
+    <img src="{{ page.header_image | relative_url }}"/>
+      <h1>{{ page.title }}</h1>
+        </div>
+      <aside>
+        <div>
+          <div class="issue">{{ page.issue }}</div>
+          <div class="date">{{ page.date | date: "%A, %d %B, %Y" }}</div>
+          <div class="edition">{{ page.edition }}</div>
+        </div>
+      </aside>
+
+      {% include sidebar.html %}
+
+      <h2 class="title--large main-title">{{ page.main_title }}</h2>
+      <div class="main-text multi-column">{{ content }}</div>
+
+      {% for article in site.news %}
+        <a href="{{ article.url }}" target="_blank" class="{{ article.class }}">
+          {% if article.image %}
+            <figure>
+              <img src="{{ article.image | relative_url }}" />
+              {% if article.figcaption %}<figcaption>{{ article.figcaption }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
+          <h4>{{ page.h4 }}</h4>
+          <div class="{{ article.text_class | default: '' }}">{{ article.text | markdownify }}</div>
+        </a>
+      {% endfor %}
+    </div>
+  </main>
+</div>

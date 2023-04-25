@@ -1,0 +1,13 @@
+{% unless news.toc_exclude %}
+  <li>
+    <a href="{{ news.url | relative_url }}" class="news-link">
+      <div class="news-link__heading">
+        {% unless news.title == "" %}
+          <h1 class="news-link__title">      
+            {{ news.title }}
+          </h1>
+        {% endunless %}
+      </div>
+    </a>
+  </li>
+{% endunless %}

@@ -34,6 +34,11 @@
 
 
 
+.ripple-text {
+  display: inline-block;
+  position: relative;
+}
+
 .ripple-text span {
   display: inline-flex;
   animation-name: ripple, colourWave;
@@ -42,6 +47,7 @@
   animation-timing-function: ease-in-out;
   opacity: 1;
   transform-origin: bottom;
+  transition: transform 0.3s ease-out;
 }
 
 .ripple-text span:nth-child(3) {
@@ -49,7 +55,7 @@
 }
 
 .ripple-text span:nth-child(odd) {
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 
 /* Remove margin from the last span element */

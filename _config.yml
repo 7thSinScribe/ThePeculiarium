@@ -26,6 +26,8 @@ discord_username: Skumbag#8885
 collections:
   rules:
     output: true
+  news:
+    output: true
 
 
 # Build settings
