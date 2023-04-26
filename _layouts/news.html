@@ -15,19 +15,57 @@ layout: default
     <img src="{{ page.header_image | relative_url }}"/>
       <h1>{{ page.title }}</h1>
         </div>
+
+      <!-- Issue information  -->
       <aside>
         <div>
           <div class="issue">{{ page.issue }}</div>
-          <div class="date">{{ page.date | date: "%A, %d %B, %Y" }}</div>
+          <div class="date">{{ page.fantasydate }}</div>
           <div class="edition">{{ page.edition }}</div>
         </div>
       </aside>
+      <!-- Issue information  -->
+  <!-- Main columns  -->
+  <h2 class="title--large main-title">{{ page.main_title }}</h2>
+  {% capture main_text_content %}
+  {{ page.main_text }}
+  {% endcapture %}
+  <div class="main-text multi-column">{{ main_text_content }}</div>
+  <!-- Main columns  -->
 
-      {% include sidebar.html %}
 
-      <h2 class="title--large main-title">{{ page.main_title }}</h2>
-      <div class="main-text multi-column">{{ content }}</div>
+        <!-- Body -->
+        <a class="body-image" href="{{ page.body_image_link | relative_url }}" target="_blank"></a>
+        <figure><img src=""><figcaption>{{ page.mainimagecaption }}</figcaption></figure>
+        </a>
+        <a class="item-with-image plan span--2 long--2" href="{{ page.body_image_link2 | relative_url }}" target="_blank"></a>
+        <h4>{{ page.secondary_title }}</h4>
+        {% capture secondary_text_content %}
+        {{ page.secondary_text }}
+        {% endcapture %}
+        <div class="secondary-text multi-column">{{ secondary_text_content }}</div>
+        <!-- Body -->
 
+      <!-- Adverts
+      <div class="sidebar">
+        <a class="firstAd" href="{{ page.firstAdLink | relative_url }}" target="_blank">
+        <h3 class="title--big">{{ page.firstAd }}</h3>
+        <img class="ad-image" src="{{ page.firstAdImage | relative_url }}"/>
+        <div class="ad-subtitle"></div>
+        <p class ="ad-text">{{ page.firstAdText }}</p>
+        </a>
+        <a class="secondAd" href="{{ page.secondAdLink | relative_url }}" target="_blank">
+        <h3 class="title--big">{{ page.secondAd }}</h3>
+        <img class="ad-image" src="{{ page.secondAdImage | relative_url }}"/>
+        <div class="ad-subtitle"></div>
+        <p class ="ad-text">{{ page.secondAdText }}</p>
+      </a>
+      </div>
+      <!-- Sidebar  -->
+
+      {{ content }}
+
+      <!-- News Lister   -->
       {% for article in site.news %}
         <a href="{{ article.url }}" target="_blank" class="{{ article.class }}">
           {% if article.image %}
@@ -40,6 +78,7 @@ layout: default
           <div class="{{ article.text_class | default: '' }}">{{ article.text | markdownify }}</div>
         </a>
       {% endfor %}
+      <!-- News Lister   -->
     </div>
   </main>
 </div>

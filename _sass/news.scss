@@ -362,7 +362,28 @@ body {
     }
   }
   
-  .sidebar-item {
+  .firstAd {
+    margin: 2rem 0;
+    padding: 2rem 0 0;
+    h5 {
+      text-align: center;
+      width: 100%;
+  padding: .5rem;
+      margin: auto;
+    }
+    p {
+      margin-top: 1rem;
+    }
+    &:hover {
+      h5 {
+        transition: 0.3s ease;
+        background: var(--muted-text-color);
+        color: #fff;
+      }
+    }
+  }
+
+  .secondAd {
     margin: 2rem 0;
     padding: 2rem 0 0;
     h5 {
@@ -550,6 +571,20 @@ body {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 .header-container {
   display: flex;
   align-items: center;
@@ -560,4 +595,15 @@ body {
   font-size: 2rem; /* Set the font size to your desired value */
   margin: 0; /* Remove any margin added by the browser */
 }
+}
+
+.news-link_title, h1 {
+  font-size: 2rem; /* Set the font size to your desired value */
+  margin: 0; /* Remove any margin added by the browser */
+  text-decoration: none;
+}
+
+.news-link
+{
+  text-decoration: none;
 }
