@@ -30,6 +30,8 @@
 
 .rule-content h2 {
   margin-top: 0.5em; /* Reduced margin-top */
+  margin-bottom: 0.25em;
+  text-align: left;
 }
 
 .rule-content ul {
@@ -65,4 +67,10 @@
   box-sizing: border-box;
 }
 
-  
+.right-column {
+  padding-left: 3rem;
+}
+
+.left-column {
+  margin-right: 1vw;
+}

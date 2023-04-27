@@ -421,10 +421,6 @@ body {
         color: #fff;
       }
     }
-    p {
-    }
-    img {
-    }
   }
   
   .magazine {
@@ -597,7 +593,7 @@ body {
 }
 }
 
-.news-link_title, h1 {
+.news-link_title {
   font-size: 2rem; /* Set the font size to your desired value */
   margin: 0; /* Remove any margin added by the browser */
   text-decoration: none;

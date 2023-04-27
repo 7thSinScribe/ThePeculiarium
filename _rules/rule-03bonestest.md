@@ -8,11 +8,11 @@ title: The Basics
     <div class="left-column">
 <pre>
 <h1>Them Bones</h1>
-Bones a set of dice which define an actor's baseline capabilities unlike other rolls you'll make, bones explode on the maximum result, meaning you roll it again and add it to your total. Many actors, such as Humans, Beasts & the Outsiders themselves share the same set of three Bones in varying sizes; they are
+Bones are a set of dice which define an actor's baseline capabilities unlike other rolls you'll make, bones explode on the maximum result, meaning you roll it again and add it to your total. Many actors, such as Humans, Beasts & the Outsiders themselves share the same set of three Bones in varying sizes; they are
 
 <b>ACUITY</b>
 
-This Bone represents an actor's mental and sensory prowess. It encompasses intelligence, coordination, and intuition. An actor with high Acuity is sharp-witted, observant, and able to process information quickly.
+This Bone represents an actor's mental and sensory prowess. It encompasses intelligence, coordination, and intuition. An actor with high Acuity is learned, observant, and able to process information quickly.
 
 <b>CELERITY</b>
 
